@@ -1,4 +1,4 @@
-package metodi;
+package methods;
 
 import java.util.Arrays;
 
@@ -81,12 +81,22 @@ public class Methods {
 		boolean[] result = new boolean[array.length]; 
 		
 		for (int i = 0; i <= array.length - 1; i++) {
-			
 			if(array[i] %2 != 0 ) result[i] = false;
 			else result[i] = true;
-			
 		}
 		
 		System.out.println(Arrays.toString(result));
+	}
+	
+	
+	public static void quadratoOfEachNumber(int[] array) {
+		
+		int[] newArray = new int[array.length];
+		
+		for (int i = 0; i < newArray.length; i++) {
+			newArray[i] = array[i] * array[i];
+		}
+		
+		System.out.println(Arrays.toString(newArray));
 	}
 }

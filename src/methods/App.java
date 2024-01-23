@@ -1,4 +1,4 @@
-package metodi;
+package methods;
 
 
 public class App {
@@ -6,9 +6,9 @@ public class App {
 	public static void main(String[] args) {
 		
 		
-		int[] array = {3,3,3,5,6};
+		int[] array = {7,3,3,5,6};
 		
-		Methods.checkIfNumberAreEven(array); 
+		Methods.quadratoOfEachNumber(array);
 
 	}
 
